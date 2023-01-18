@@ -3,63 +3,67 @@
   height: 215px;
   border-radius: 10px;
   font-family: "Rota-Black";
-  background-color: #dcdce0;
+  background-color: var(--card-bg);
   padding: 2px 30px 2px 30px;
   text-align: left;
 }
+
 h3 {
   margin-top: 1rem;
   margin-left: 3px;
-  color: #2d2d2d;
+  color: var(--card-title);
   font-size: 21px;
 }
+
 .box {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
+
 .circle {
   height: 120px;
   width: 120px;
-  background-color: #6dd0a5;
+  background-color: var(--primary-green);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.qualityrate {
+
+.quality-rate {
   font-size: 65px;
   color: white;
   padding: 1rem 1rem 0rem 1rem;
 }
-.box1 {
+
+.primary-box {
   display: flex;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 0rem;
 }
-.box2 {
+
+.secondary-box {
   display: flex;
   align-items: center;
 }
-.arrowup {
-  color: red;
-  font-size: 50px;
-}
+
 .part {
-  color: #999999;
+  color: var(--secondary-green);
   display: block;
 }
+
 .rate {
   font-size: xx-large;
   display: flex;
-  color: #999999;
+  color: var(--secondary-green);
   margin-left: 8px;
   padding-right: 35px;
 }
 
-.container2 {
+.container-secondary {
   margin-left: 10px;
   display: flex;
   flex-direction: column;

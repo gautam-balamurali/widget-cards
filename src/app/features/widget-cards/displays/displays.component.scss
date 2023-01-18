@@ -3,55 +3,63 @@
   height: 215px;
   border-radius: 10px;
   font-family: "Rota-Black";
-  background-color: #dcdce0;
+  background-color: var(--card-bg);
   padding: 2px 30px 2px 30px;
   text-align: left;
 }
+
 h3 {
   margin-top: 1rem;
   margin-left: 3px;
-  color: #2d2d2d;
+  color: var(--card-title);
   font-size: 21px;
 }
+
 .box {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
-.play {
+
+.current {
   margin-top: 0px;
   margin-bottom: -22px;
-  color: #5448c8;
+  color: var(--primary-blue);
   font-size: 90px;
 }
+
 .part {
   font-size: 38px;
 }
-.playbtn {
+
+.info-btn {
   margin: 0px 12px 0px 12px;
   padding: 3px 14px 3px 14px;
   margin-top: -50px;
   border-radius: 6px;
   font-family: "Rota-Medium";
-  background-color: #6dd0a5;
+  background-color: var(--primary-green);
   color: white;
 }
+
 .total {
   display: flex;
   margin-left: 3px;
-  border-left: 1px solid #999999;
+  border-left: 1px solid var(--secondary-green);
   height: 70px;
   flex-direction: column;
   justify-content: center;
   padding-left: 10px;
   padding-right: 26px;
 }
+
 .total p {
   margin-top: 1rem;
   font-size: 14px;
-  color: #6dd0a5;
+  color: var(--primary-green);
 }
+
 .total h3 {
   margin-top: -1rem;
   color: #707070;
