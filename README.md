@@ -4,6 +4,7 @@
 * Each widget is static with dummy data.
 * Adoptive design - design will change according to the number of cards within the page at the time.
 * This app is responsive for all the screen sizes.
+* Screen resolution used to make: 1920 x 1080
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
