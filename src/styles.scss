@@ -17,6 +17,14 @@
   src: url("./assets/fonts/Rota/Rota-Regular.otf");
 }
 
+:root {
+  --card-bg: #dcdce0;
+  --card-title: #2d2d2d;
+  --primary-green: #6dd0a5;
+  --secondary-green: #999999;
+  --primary-blue: #5448c8;
+}
+
 body {
   background-image: linear-gradient(to top right, #f6f6f6, #eaeaf2);
   height: 100%;
