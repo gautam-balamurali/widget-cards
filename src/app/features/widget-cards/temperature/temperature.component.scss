@@ -1,0 +1,78 @@
+.container {
+  width: 300px;
+  height: 215px;
+  border-radius: 10px;
+  font-family: "Rota-Black";
+  background-color: #dcdce0;
+  padding: 2px 30px 2px 30px;
+  text-align: left;
+}
+h3 {
+  margin-top: 1rem;
+  margin-left: 3px;
+  color: #2d2d2d;
+  font-size: 21px;
+}
+.box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  height: 120px;
+  width: 120px;
+  background-color: #5448c8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp {
+  font-size: 65px;
+  color: white;
+  padding: 1rem 1rem 0rem 1rem;
+}
+.celcius {
+  font-size: 23px;
+  margin-top: 43%;
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+}
+
+.part {
+  color: #999999;
+  display: block;
+}
+.tempr {
+  font-size: xx-large;
+  display: flex;
+  color: #999999;
+  margin-left: 8px;
+  padding-right: 35px;
+}
+.tempr img {
+  padding-right: 0.5rem;
+  height: 1.3rem;
+  width: 1.3rem;
+  margin-top: 6px;
+}
+.cels {
+  margin-top: 12px;
+  font-size: 17px;
+  font-family: "Rota-Regular";
+}
+.container2 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

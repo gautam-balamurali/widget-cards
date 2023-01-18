@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Rota-Black";
+  src: url("./assets/fonts/Rota/Rota-Black.otf");
+}
+@font-face {
+  font-family: "Rota-Bold";
+  src: url("./assets/fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: "Rota-Medium";
+  src: url("./assets/fonts/Rota/Rota-Medium.otf");
+}
+@font-face {
+  font-family: "Rota-Regular";
+  src: url("./assets/fonts/Rota/Rota-Regular.otf");
+}
+
+body {
+  background-image: linear-gradient(to top right, #f6f6f6, #eaeaf2);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

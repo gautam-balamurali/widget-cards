@@ -1,0 +1,55 @@
+.container {
+  width: 300px;
+  height: 215px;
+  border-radius: 10px;
+  font-family: "Rota-Black";
+  background-color: #dcdce0;
+  padding: 2px 30px 2px 30px;
+  text-align: left;
+}
+h3 {
+  margin-top: 1rem;
+  margin-left: 3px;
+  color: #2d2d2d;
+  font-size: 21px;
+}
+.box {
+  margin-top: 2em;
+  margin-bottom: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+.play {
+  margin-top: 0px;
+  margin-bottom: -22px;
+  color: #5448c8;
+  font-size: 90px;
+}
+.playbtn {
+  margin: 0px 12px 0px 12px;
+  padding: 3px 12px 3px 12px;
+  margin-top: -30px;
+  border-radius: 6px;
+  font-family: "Rota-Medium";
+  background-color: #6dd0a5;
+  color: white;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  margin-top: 7px;
+  padding-right: 31px;
+}
+.total p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #6dd0a5;
+}
+.total h3 {
+  margin-top: -1rem;
+  color: #707070;
+  font-weight: bolder;
+  font-size: xx-large;
+}

@@ -1,0 +1,29 @@
+.data {
+  padding-top: 3%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1700px) {
+  .data {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .data {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .data {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .data {
+    width: 100%;
+  }
+}
