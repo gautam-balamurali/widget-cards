@@ -1,6 +1,39 @@
 # WidgetCards
 
+* A simple app to display multiple widget cards on the screen.
+* Each widget is static with dummy data.
+* Adoptive design - design will change according to the number of cards within the page at the time.
+* This app is responsive for all the screen sizes.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+
+## Tech Stack
+
+* Angular
+* Netlify
+
+## Profile Links
+
+* [Visit LinkedIn](https://www.linkedin.com/in/gautam-balamurali)
+* [Visit Portfolio](https://gautam-balamurali.netlify.app)
+
+## Snapshot
+
+![image](https://user-images.githubusercontent.com/27736288/213280383-c093e5d8-cf5c-42cd-be71-83db101e1fc2.png)
+
+## Preview
+
+[View live](https://widget-cards-gautam-balamurali.netlify.app/widgets)
+
+## Future Work
+
+* Make widgets dynamic.
+* Drag and drop feature on cards.
+* Improve UI/UX design.
+
+## License
+
+[View license](https://github.com/gautam-balamurali/widget-cards/blob/master/LICENSE.md)
 
 ## Development server
 
