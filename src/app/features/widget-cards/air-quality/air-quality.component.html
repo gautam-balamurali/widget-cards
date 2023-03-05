@@ -1,19 +1,22 @@
 <div class="container">
-  <h3>Air Quality</h3>
+  <h3>{{ airQualityData?.name }}</h3>
   <div class="box">
     <div class="circle">
-      <h2 class="quality-rate">72</h2>
+      <h2 class="quality-rate">{{ airQualityData?.value }}</h2>
     </div>
     <div class="container-secondary">
       <div class="primary-box">
         <h2 class="rate">
-          <i style="color: var(--primary-green)" class="fas fa-arrow-up"></i>&nbsp;93
+          <i style="color: var(--primary-green)" class="fas fa-arrow-up"></i
+          >&nbsp;{{ airQualityData?.hi }}
         </h2>
       </div>
       <hr class="part" />
       <div class="secondary-box">
         <h2 class="rate">
-          <i class="fas fa-arrow-down" style="color: #eab308"></i>&nbsp;61
+          <i class="fas fa-arrow-down" style="color: #eab308"></i>&nbsp;{{
+            airQualityData?.lo
+          }}
         </h2>
       </div>
     </div>
