@@ -5,10 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
 import { LayoutsModule } from './layouts/layouts.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, FeaturesModule, LayoutsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FeaturesModule,
+    LayoutsModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
