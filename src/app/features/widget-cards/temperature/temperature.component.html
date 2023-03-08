@@ -1,25 +1,25 @@
 <div class="container">
-  <h3>Temperature</h3>
+  <h3>{{ temperatureData?.name }}</h3>
   <div class="box">
     <div class="circle">
-      <h2 class="temp">21<span class="celcius-circle">°C</span></h2>
+      <h2 class="temp">
+        {{ temperatureData?.value
+        }}<span class="celcius-circle">°{{ temperatureData?.format }}</span>
+      </h2>
     </div>
     <div class="container-secondary">
       <div class="primary-box">
         <h2 class="temp-rate">
-          <img src="assets/icons/fire.svg" alt="Fire" />26<span
-            class="celcius"
-            >°C</span
-          >
+          <img src="assets/icons/fire.svg" alt="Fire" />{{ temperatureData?.hi
+          }}<span class="celcius">°{{ temperatureData?.format }}</span>
         </h2>
       </div>
       <hr class="part" />
       <div class="secondary-box">
         <h2 class="temp-rate">
-          <img src="assets/icons/snowflake.svg" alt="Snowflake" />18<span
-            class="celcius"
-            >°C</span
-          >
+          <img src="assets/icons/snowflake.svg" alt="Snowflake" />{{
+            temperatureData?.lo
+          }}<span class="celcius">°{{ temperatureData?.format }}</span>
         </h2>
       </div>
     </div>
