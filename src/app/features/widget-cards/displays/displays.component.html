@@ -1,10 +1,13 @@
 <div class="container">
-  <h3>Displays</h3>
+  <h3>{{ displayData?.name }}</h3>
   <div class="box">
-    <h3 class="current">10<span class="part">/16</span></h3>
+    <h3 class="current">
+      {{ displayData?.value
+      }}<span class="part">/{{ displayData?.total }}</span>
+    </h3>
     <div class="total">
       <p>On Time</p>
-      <h3>00:00</h3>
+      <h3>{{ displayData?.on_time }}</h3>
     </div>
   </div>
 </div>
